@@ -172,7 +172,7 @@ nav {
     padding-bottom: 24px;
 }
 
-.gamer-para { 
+.gamer-para {
     color: #534C64;
     font-family: Work Sans;
     font-size: 18px;
@@ -197,9 +197,71 @@ nav {
     font-weight: 700;
     line-height: 45px;
 }
-.gamer-texts{
+
+.gamer-texts {
     text-align: right;
     padding-right: 130px;
+}
+
+/* online games section */
+.online-gamer-videos .video-img img{
+    width: 305px;
+    height: 350px;
+    padding-bottom: 24px;
+}
+
+.online-gamer-videos .video-img p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 30px;
+}
+.no-download{
+    margin-left: 20px;
+}
+
+.online-gamer-videos .video-img:hover {
+    filter: brightness(40%);
+    border-radius: 16px;
+}
+
+.online-gamer-videos {
+    display: flex;
+    gap: 20px;
+    padding: 40px 100px;
+}
+
+.online-games {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.online-gamer-title {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-gamer-para {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 
@@ -279,26 +341,31 @@ nav {
 
 
     /*for we are gamer section */
-    .we-are-gamer{
+    .we-are-gamer {
         flex-direction: column;
     }
-    .we-are-gamer img{
+
+    .we-are-gamer img {
         width: 400px;
         height: 250px;
         padding: 0px 5px;
     }
-    .gamer-texts{
+
+    .gamer-texts {
         padding: 0;
         text-align: center;
         padding-right: 5px;
         padding-left: 5px;
     }
-    .gamer-title{
+
+    .gamer-title {
         font-size: 30px;
     }
-    .gamer-para{
+
+    .gamer-para {
         font-size: 15px;
     }
+
     .common-button {
         width: 150px;
         border-radius: 48px;
@@ -306,10 +373,12 @@ nav {
         padding: 15px 20px;
         margin-top: -20px;
     }
-    .gamer-head-para{
+
+    .gamer-head-para {
         font-size: 18px;
     }
-    .gamer-fat-font{
+
+    .gamer-fat-font {
         font-size: 20px;
     }
 }
