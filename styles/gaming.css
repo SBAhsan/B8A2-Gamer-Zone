@@ -11,6 +11,21 @@
     font-family: 'Lato', sans-serif;
 }
 
+.common-button {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FF42A5;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: 0;
+    text-transform: uppercase;
+}
+
 /* header styles */
 /* menu bar styles */
 
@@ -57,11 +72,131 @@ nav {
     margin-right: 40px;
 }
 
-.follow-us-links {   
+.follow-us-links {
+    display: flex;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 20px;
 }
-.page-menus{
+
+.page-menus {
     margin-right: 50px;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play-like {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 24px;
+}
+
+.banner-texts p {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding-bottom: 17px;
+}
+
+.banner-texts {
+    text-align: left;
+    background-image: url('images/Group 14.png');
+}
+
+.banner-button {
+    display: flex;
+    gap: 24px;
+    padding-top: 40px;
+}
+
+.banner-uncommon-button {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 21px 40px;
+    gap: 10px;
+}
+
+
+/*/ responsive styles /*/
+/* for mobile */
+@media screen and (max-width: 576px) {
+
+    /* for header section */
+    /* for logo and menubar section */
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        height: 400px;
+    }
+
+    .page-logo {
+        padding: 20px 120px 20px 0;
+    }
+
+    .page-menus ul {
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 80px;
+    }
+
+    /* for banner section */
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 350px;
+        height: 400px;
+    }
+    .banner-img img {
+        width: 350px;
+        height: 400px;
+    }
+    .banner-texts{
+        width: 80%;
+        margin: auto;
+        background-color: fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+        padding-top: 50px;
+    }
+    .play-like{
+        font-size: 30px;
+    }
+    .goat{
+        font-size: 60px;
+    }
+    .banner-texts p{
+        width: 200px;
+        font-size: 15px;
+        padding-left: 40px;
+    }
+
 }
