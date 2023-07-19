@@ -356,6 +356,10 @@ nav {
     color: #FF42A5;
 }
 
+
+
+
+
 /*/ responsive styles /*/
 /* for mobile */
 @media screen and (max-width: 576px) {
@@ -555,5 +559,24 @@ nav {
         font-size: 15px;
     }
 
+
+
+    /* for game genre section */
+    .game-genre{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 100px 20px;
+    }
+    .genre{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .genre img{
+        width: 70px;
+        height: 70px;
+    }
+    .genre p{
+        font-size: 15px;
+    }
 
 }
