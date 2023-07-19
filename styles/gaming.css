@@ -370,7 +370,7 @@ nav {
 }
 
 .our-story {
-    color: #FFF;
+    
     text-align: center;
     font-family: Work Sans;
     font-size: 18px;
@@ -379,6 +379,10 @@ nav {
     gap: 50px;
     margin-top: 30px;
     
+}
+.our-story a{
+    color: #FFF;
+    text-decoration: none;
 }
 
 .icon {
@@ -398,7 +402,7 @@ footer nav>ul li {
 }
 
 .terms {
-    color: rgba(255, 255, 255, 0.60);
+    
     text-align: center;
     font-family: Work Sans;
     font-size: 16px;
@@ -406,6 +410,10 @@ footer nav>ul li {
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
+}
+.terms a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
 }
 
 .foot-para {
@@ -653,6 +661,54 @@ footer nav .page-logo{
 
     .genre p {
         font-size: 15px;
+    }
+
+
+    /* for footer section */
+    .our-story{
+        width: 350px;
+        flex-wrap: wrap;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+    footer nav>ul{
+        width: 300px;
+        gap: 50px;
+        flex-wrap: wrap;
+        margin-left: 55px;
+    }
+    .terms{
+        width: 350px;
+        flex-wrap: wrap;
+        font-size: 12px;
+        margin-left: 55px;
+    }
+    .condition{
+        padding-left: 18px;
+    }
+    .cookie{
+        padding-left: 20px;
+    }
+    .privacy-set{
+        padding-left: 40px;
+    }
+    .foot-para{
+        width: 178px;
+        font-size: 12px;
+        padding-bottom: 40px;
+    }
+    footer nav{
+        text-align: center;
+    }
+    footer nav .page-logo{
+        padding-top: 80px;
+    }
+    footer nav{
+        height: 750px;
     }
 
 }
