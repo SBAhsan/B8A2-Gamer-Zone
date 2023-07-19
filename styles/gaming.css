@@ -272,6 +272,7 @@ nav {
     align-items: center;
     gap: 100px;
     padding-top: 120px;
+    padding-bottom: 100px;
 }
 
 .img-1 {
@@ -326,15 +327,18 @@ nav {
 
 /* game genre section */
 .game-genre {
-    padding-top: 120px;
+    padding-top: 150px;
     display: flex;
     justify-content: space-around;
     gap: 50px;
     flex-wrap: wrap;
-    text-align: center;   
+    text-align: center;
+    padding-bottom: 120px;
+    border: 2px solid purple;
+    border-radius: 30px;
 }
 
-.genre { 
+.genre {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -349,13 +353,82 @@ nav {
     font-size: 18px;
     font-weight: 600;
 }
-.genre:hover{
+
+.genre:hover {
     border: 1px solid #FF42A5;
 }
-.genre p:hover{
+
+.genre p:hover {
     color: #FF42A5;
 }
 
+
+
+/* footer section */
+.amer {
+    color: white;
+}
+
+.our-story {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+footer nav>ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+footer nav>ul li {
+    list-style: none;
+}
+
+.terms {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.foot-para {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    
+    margin-bottom: 100px;
+}
+footer nav{
+    background-color: #0B0223;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+footer nav .page-logo{
+    padding-right: 150px;
+    margin-top: 120px;
+}
 
 
 
@@ -562,20 +635,23 @@ nav {
 
 
     /* for game genre section */
-    .game-genre{
+    .game-genre {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 100px 20px;
     }
-    .genre{
+
+    .genre {
         flex-direction: column;
         gap: 10px;
     }
-    .genre img{
+
+    .genre img {
         width: 70px;
         height: 70px;
     }
-    .genre p{
+
+    .genre p {
         font-size: 15px;
     }
 
