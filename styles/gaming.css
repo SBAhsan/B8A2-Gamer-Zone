@@ -381,4 +381,38 @@ nav {
     .gamer-fat-font {
         font-size: 20px;
     }
+
+
+
+    /* for online games section */
+    .online-gamer-videos{
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+    .online-gamer-videos .video-img{
+        padding-bottom: 10px;
+    }
+    .online-gamer-videos .video-img img{
+        width: 350px;
+        height: 400px;
+    }
+    .online-gamer-videos .video-img p{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        
+    }
+
+    .online-gamer-title{
+        font-size: 30px;
+    }
+    .funny{
+        font-size: 30px;
+    }
+    .online-gamer-para{
+        font-size: 15px;
+        padding-bottom: 70px;
+    }
+    
 }
