@@ -71,12 +71,19 @@ nav {
     list-style: none;
     margin-right: 40px;
 }
+.page-menus li a{
+    text-decoration: none;
+}
 
-.follow-us-links {
+.follow-us {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 10px 20px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .page-menus {
@@ -462,6 +469,7 @@ footer nav .page-logo{
         gap: 20px;
         padding-left: 80px;
     }
+    
 
     /* for banner section */
     .banner {
